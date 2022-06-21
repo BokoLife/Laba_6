@@ -1,0 +1,10 @@
+--CREATE TABLE IF NOT EXISTS users (
+    --id INT NOT NULL PRIMARY KEY,
+    --login VARCHAR(255) NOT NULL,
+  --  password VARCHAR(255) NOT NULL
+--);
+
+--SELECT password FROM users WHERE login = 'hello1';
+--SELECT exists(SELECT 1 from users WHERE login = 'hello1');
+--INSERT INTO users (login, password) VALUES ('hi2', 'hi');
+DELETE FROM collection WHERE id = 28;
